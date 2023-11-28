@@ -1,6 +1,7 @@
 #include "binary_trees.h"
 #include <stddef.h>
 #include <stdlib.h>
+#include <stddef.h>
 /**
  * binary_tree_preorder - function that creates a binary tree node
  * @node: pointer to the parent node of the node to create
