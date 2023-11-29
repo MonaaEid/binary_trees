@@ -11,7 +11,6 @@
  */
 int binary_tree_balance(const binary_tree_t *tree)
 {
-	// size_t count = 0;
 	size_t left_height, right_height = 0;
 
 	if (tree == NULL)
