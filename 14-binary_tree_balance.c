@@ -3,7 +3,8 @@
 #include <stdlib.h>
 #include <stddef.h>
 /**
- * binary_tree_balance - function that measures the balance factor of a binary tree
+ * binary_tree_balance - function that measures
+ * the balance factor of a binary tree
  * at least 1 child in a binary tree
  * @tree: pointer to the parent node of the node to create
  * Return: return a pointer to the new node, or NULL on failure
