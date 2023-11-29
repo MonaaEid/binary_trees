@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <stddef.h>
 /**
- * binary_tree_size - function that creates a binary tree node
+ * binary_tree_size - function that measures the size of a binary tree
  * @tree: pointer to the parent node of the node to create
  * Return: return a pointer to the new node, or NULL on failure
  *
