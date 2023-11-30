@@ -29,7 +29,7 @@ const binary_tree_t *second)
 	if (second->parent == first)
 		return ((binary_tree_t *)first);
 
-	return (binary_trees_ancestor(first->parent, second->parent));
+	return (binary_trees_ancestor(first->parent, second->parent)? binary_trees_ancestor(first->parent, second->parent): NULL);
 }
 
 
